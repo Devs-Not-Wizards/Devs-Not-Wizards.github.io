@@ -14,10 +14,10 @@ body {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: rgba(19, 36, 44, 0.1);
+  color: rgba(19, 36, 44, 0.226);
   font-size: 30em;
   text-align: center;
-  top: 40%;
+  top: 50%;
 }
 
 .container {
@@ -417,21 +417,20 @@ body {
 }
 /*/////////////////////// credit ////*/
 #link {
-  top: 50%;
-  color: #13242c;
-  opacity: 0.3;
+  top: 10%;
+  color: #000;
+  opacity: 0.7;
   display: flex;
   align-items: center;
   position: absolute;
-  left: 10%;
+  left: 50%;
   transform: translateX(-50%);
 }
-
 #link p {
+  font-size: 05em;
   margin: 0;
   margin-left: 5px;
 }
-
 #link:hover {
   opacity: 1;
 }
